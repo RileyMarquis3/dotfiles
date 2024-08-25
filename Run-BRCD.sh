@@ -1,15 +1,20 @@
 # Run-BRCD.sh - runs all files in .bashrc.d
 # Taken From: https://stackoverflow.com/questions/41079143/run-all-shell-scripts-in-folder
 
+##### Source Cecho #####
+echo "Enabling Cecho..."
+source NewCecho.bfunc
+cecho green "Cecho Loaded."
+
 BRCD_Folder='.bashrc.d'
 
 function Enter_BRCD {
-  echo "Entering $BRCD_Folder..."
+  cecho "Entering $BRCD_Folder..."
   cd $BRCD_Folder
   }
 
 function Exit_BRCD {
-  echo "Exiting $BRCD_Folder..."
+  cecho "Exiting $BRCD_Folder..."
   cd -
   }
 
@@ -51,7 +56,7 @@ done
 
 
 ### Main Program ###
-echo "Running BRCD..."
+cecho "Running BRCD..."
   # Enter_BRCD() # DO NOT USE until code updated!
   
 RunBRCD-Base()
@@ -60,4 +65,4 @@ RunBRCD-Base()
 # RunBRCD-PreserveExitCode()
 # RunBRCD-Full
 ## Exit_BRCD()
-echo "BRCD Loaded."
+cecho "BRCD Loaded."
