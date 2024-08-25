@@ -17,3 +17,8 @@
 This project primarily contains bashrc.d (BRCD) - a set of configs and scripts to customize BASH including the login shell, BASH prompt, and enable aliases, among other features.
 <hr>
 
+<hr>
+<h4> bashrc.d Folder - Config files for BRCD. </h4>
+<h4> Enable-BRCD.sh - Script to enable BRCD. </h4>
+<h4> Run-BRCD.sh - has extra features we wish to port to Enable-BRCD.sh. </h4>
+
