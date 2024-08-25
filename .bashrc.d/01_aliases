@@ -1,0 +1,23 @@
+## BEGIN Custom Aliases - Base ##
+alias ll='ls -hl --color=auto'
+alias rm='rm -i'
+alias mv='mv -v'
+alias cp='cp -v'
+
+# DOS-Like commands
+alias md='mkdir'
+alias rd='rmdir'
+
+# Systemctl Aliases
+alias sc='systemctl'
+alias scs='systemctl status'
+alias scstart='systemctl start'
+alias scstop='systemctl stop'
+
+# Interactive
+alias rmi='rm -i'
+alias cpi='cp -i'
+alias mvi='mv -i'
+
+
+## END Custom Aliases ##
